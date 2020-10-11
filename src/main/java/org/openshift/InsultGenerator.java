@@ -1,9 +1,9 @@
 package org.openshift;
 
 import java.sql.*;
-import java.util.Random;
 
 public class InsultGenerator {
+
 	public String generateInsult() {
 		String words[][] = {{"Artless", "Bawdy", "Beslubbering"}, {"Base-court", "Bat-fowling", "Beef-witted"}, {"Apple-john", "Baggage", "Barnacle"}};
 		String vowels = "AEIOU";
