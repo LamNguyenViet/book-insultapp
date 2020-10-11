@@ -17,4 +17,12 @@ public class InsultResource {
         theInsult.put("insult", new InsultGenerator().generateInsult());
         return theInsult;
     }
+    @GET()
+    @Path("/hihi")
+    @Produces("application/json")
+    public HashMap<String, String> getString(){
+        HashMap<String, String> string = new HashMap<>();
+        string.put("Lam Nguyen", "Hoang Tuyet Nhung");
+        return string;
+    }
 }
